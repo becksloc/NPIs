@@ -1,0 +1,78 @@
+<http://purl.bioontology.org/ontology/NPI/C_000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000002> .
+<http://purl.bioontology.org/ontology/NPI/C_000007> <http://www.w3.org/2000/01/rdf-schema#label> "Diet"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000010> <http://www.w3.org/2004/02/skos/core#altLabel> "Disease management program"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000003> .
+<http://purl.bioontology.org/ontology/NPI/C_000010> <http://www.w3.org/2000/01/rdf-schema#label> "Disease management"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000016> <http://www.w3.org/2004/02/skos/core#altLabel> "m-health"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000001> .
+<http://purl.bioontology.org/ontology/NPI/C_000016> <http://www.w3.org/2000/01/rdf-schema#label> "Medical device"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000001> .
+<http://purl.bioontology.org/ontology/NPI/C_000006> <http://www.w3.org/2000/01/rdf-schema#label> "Physiotherapy"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.bioontology.org/ontology/NPI/C_000015> <http://www.w3.org/2004/02/skos/core#altLabel> "APA"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000005> .
+<http://purl.bioontology.org/ontology/NPI/C_000015> <http://www.w3.org/2000/01/rdf-schema#label> "Adapted physical activity"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000408> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000406> .
+<http://purl.bioontology.org/ontology/NPI/C_000408> <http://www.w3.org/2000/01/rdf-schema#label> "Medicine product"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000001> .
+<http://purl.bioontology.org/ontology/NPI/C_000005> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000014> <http://www.w3.org/2004/02/skos/core#altLabel> "Manual therapy"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000004> .
+<http://purl.bioontology.org/ontology/NPI/C_000014> <http://www.w3.org/2000/01/rdf-schema#label> "Massage"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000407> <http://www.w3.org/2000/01/rdf-schema#label> "Non-Pharmacological Intervention"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000001> .
+<http://purl.bioontology.org/ontology/NPI/C_000004> <http://www.w3.org/2000/01/rdf-schema#label> "Bodycare"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.bioontology.org/ontology/NPI/C_000013> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000009> .
+<http://purl.bioontology.org/ontology/NPI/C_000013> <http://www.w3.org/2000/01/rdf-schema#label> "Food supplement containing Mushroom"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000019> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000007> .
+<http://purl.bioontology.org/ontology/NPI/C_000019> <http://www.w3.org/2000/01/rdf-schema#label> "Cohen Diet"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000406> <http://www.w3.org/2000/01/rdf-schema#label> "Product"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000407> .
+<http://purl.bioontology.org/ontology/NPI/C_000003> <http://www.w3.org/2000/01/rdf-schema#label> "Psychological intervention"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000009> <http://www.w3.org/2004/02/skos/core#altLabel> "Dietary Supplements"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000002> .
+<http://purl.bioontology.org/ontology/NPI/C_000009> <http://www.w3.org/2000/01/rdf-schema#label> "Supplementary food"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000012> <http://www.w3.org/2004/02/skos/core#altLabel> "Psychological therapy"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000003> .
+<http://purl.bioontology.org/ontology/NPI/C_000012> <http://www.w3.org/2000/01/rdf-schema#label> "Psychotherapy"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000007> .
+<http://purl.bioontology.org/ontology/NPI/C_000018> <http://www.w3.org/2000/01/rdf-schema#label> "Mayo Diet"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000405> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000407> .
+<http://purl.bioontology.org/ontology/NPI/C_000405> <http://www.w3.org/2000/01/rdf-schema#label> "Digital intervention"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000407> .
+<http://purl.bioontology.org/ontology/NPI/C_000002> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition intervention"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000002> .
+<http://purl.bioontology.org/ontology/NPI/C_000008> <http://www.w3.org/2000/01/rdf-schema#label> "Food"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000003> .
+<http://purl.bioontology.org/ontology/NPI/C_000011> <http://www.w3.org/2000/01/rdf-schema#label> "Health education"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000007> .
+<http://purl.bioontology.org/ontology/NPI/C_000017> <http://www.w3.org/2000/01/rdf-schema#label> "Mediterranean Diet"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000007> .
+<http://purl.bioontology.org/ontology/NPI/C_000020> <http://www.w3.org/2000/01/rdf-schema#label> "Dukan Diet"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/NPI/C_000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/NPI/C_000407> .
+<http://purl.bioontology.org/ontology/NPI/C_000001> <http://www.w3.org/2000/01/rdf-schema#label> "Body intervention"@en .
+<http://purl.bioontology.org/ontology/NPI/C_000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
