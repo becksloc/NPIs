@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/DBVNkccKuHofmXURyYIRGa#"
+     xml:base="http://webprotege.stanford.edu/project/DBVNkccKuHofmXURyYIRGa"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.bioontology.org/ontology/NPI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="&skos;altLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000001">
+        <rdfs:label xml:lang="en">Body intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000407"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000002">
+        <rdfs:label xml:lang="en">Nutrition intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000407"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000003">
+        <rdfs:label xml:lang="en">Psychological intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000407"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000004">
+        <rdfs:label xml:lang="en">Bodycare</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000005">
+        <rdfs:label xml:lang="en">Exercise</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000006">
+        <rdfs:label xml:lang="en">Physiotherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000007">
+        <rdfs:label xml:lang="en">Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000008">
+        <rdfs:label xml:lang="en">Food</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000009">
+        <rdfs:label xml:lang="en">Supplementary food</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000002"/>
+        <skos:altLabel xml:lang="en">Dietary Supplements</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000010 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000010">
+        <rdfs:label xml:lang="en">Disease management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000003"/>
+        <skos:altLabel xml:lang="en">Disease management program</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000011 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000011">
+        <rdfs:label xml:lang="en">Health education</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000012 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000012">
+        <rdfs:label xml:lang="en">Psychotherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000003"/>
+        <skos:altLabel xml:lang="en">Psychological therapy</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000013 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000013">
+        <rdfs:label xml:lang="en">Food supplement containing Mushroom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000014 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000014">
+        <rdfs:label xml:lang="en">Massage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000004"/>
+        <skos:altLabel xml:lang="en">Manual therapy</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000015 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000015">
+        <rdfs:label xml:lang="en">Adapted physical activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000005"/>
+        <skos:altLabel xml:lang="en">APA</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000016 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000016">
+        <rdfs:label xml:lang="en">Medical device</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000001"/>
+        <skos:altLabel xml:lang="en">m-health</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000017 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000017">
+        <rdfs:label xml:lang="en">Mediterranean Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000018 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000018">
+        <rdfs:label xml:lang="en">Mayo Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000019 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000019">
+        <rdfs:label xml:lang="en">Cohen Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000020 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000020">
+        <rdfs:label xml:lang="en">Dukan Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000405 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000405">
+        <rdfs:label xml:lang="en">Digital intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000407"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000406 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000406">
+        <rdfs:label xml:lang="en">Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000407 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000407">
+        <rdfs:label xml:lang="en">Non-Pharmacological Intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/NPI/C_000408 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000408">
+        <rdfs:label xml:lang="en">Medicine product</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000406"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
