@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 
-
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
@@ -8,7 +7,6 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
-
 
 <rdf:RDF xmlns="http://webprotege.stanford.edu/project/DBVNkccKuHofmXURyYIRGa#"
      xml:base="http://webprotege.stanford.edu/project/DBVNkccKuHofmXURyYIRGa"
@@ -19,8 +17,6 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.bioontology.org/ontology/NPI"/>
     
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -29,14 +25,10 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
 
     <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
 
     <owl:AnnotationProperty rdf:about="&skos;altLabel"/>
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -45,9 +37,6 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-
-    
-
 
     <!-- http://purl.bioontology.org/ontology/NPI/C_000001 -->
 
@@ -126,7 +115,7 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/NPI/C_000009">
         <rdfs:label xml:lang="en">Supplementary food</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/NPI/C_000002"/>
-        <skos:altLabel xml:lang="en">Dietary Supplements</skos:altLabel>
+        <skos:altLabel xml:lang="en">Dietary Supplement</skos:altLabel>
     </owl:Class>
     
 
