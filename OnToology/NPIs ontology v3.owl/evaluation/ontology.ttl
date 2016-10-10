@@ -1,0 +1,136 @@
+@prefix :        <http://webprotege.stanford.edu/project/DBVNkccKuHofmXURyYIRGa#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000011>
+      a       owl:Class ;
+      rdfs:label "Health education"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000003> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000002>
+      a       owl:Class ;
+      rdfs:label "Nutrition intervention"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000407> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000008>
+      a       owl:Class ;
+      rdfs:label "Food"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000002> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000006>
+      a       owl:Class ;
+      rdfs:label "Physiotherapy"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000001> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000004>
+      a       owl:Class ;
+      rdfs:label "Bodycare"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000001> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000406>
+      a       owl:Class ;
+      rdfs:label "Product"@en .
+
+<http://purl.bioontology.org/ontology/NPI>
+      a       owl:Ontology .
+
+<http://purl.bioontology.org/ontology/NPI/C_000408>
+      a       owl:Class ;
+      rdfs:label "Medicine product"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000406> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000016>
+      a       owl:Class ;
+      rdfs:label "Medical device"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000001> ;
+      skos:altLabel "m-health"@en .
+
+<http://purl.bioontology.org/ontology/NPI/C_000014>
+      a       owl:Class ;
+      rdfs:label "Massage"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000004> ;
+      skos:altLabel "Manual therapy"@en .
+
+<http://purl.bioontology.org/ontology/NPI/C_000018>
+      a       owl:Class ;
+      rdfs:label "Mayo Diet"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000007> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000010>
+      a       owl:Class ;
+      rdfs:label "Disease management"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000003> ;
+      skos:altLabel "Disease management program"@en .
+
+<http://purl.bioontology.org/ontology/NPI/C_000007>
+      a       owl:Class ;
+      rdfs:label "Diet"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000002> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000012>
+      a       owl:Class ;
+      rdfs:label "Psychotherapy"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000003> ;
+      skos:altLabel "Psychological therapy"@en .
+
+<http://purl.bioontology.org/ontology/NPI/C_000001>
+      a       owl:Class ;
+      rdfs:label "Body intervention"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000407> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000020>
+      a       owl:Class ;
+      rdfs:label "Dukan Diet"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000007> .
+
+skos:altLabel
+      a       owl:AnnotationProperty .
+
+<http://purl.bioontology.org/ontology/NPI/C_000003>
+      a       owl:Class ;
+      rdfs:label "Psychological intervention"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000407> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000005>
+      a       owl:Class ;
+      rdfs:label "Exercise"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000001> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000405>
+      a       owl:Class ;
+      rdfs:label "Digital intervention"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000407> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000407>
+      a       owl:Class ;
+      rdfs:label "Non-Pharmacological Intervention"@en .
+
+<http://purl.bioontology.org/ontology/NPI/C_000015>
+      a       owl:Class ;
+      rdfs:label "Adapted physical activity"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000005> ;
+      skos:altLabel "APA"@en .
+
+<http://purl.bioontology.org/ontology/NPI/C_000013>
+      a       owl:Class ;
+      rdfs:label "Food supplement containing Mushroom"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000009> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000009>
+      a       owl:Class ;
+      rdfs:label "Supplementary food"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000002> ;
+      skos:altLabel "Dietary Supplements"@en .
+
+<http://purl.bioontology.org/ontology/NPI/C_000017>
+      a       owl:Class ;
+      rdfs:label "Mediterranean Diet"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000007> .
+
+<http://purl.bioontology.org/ontology/NPI/C_000019>
+      a       owl:Class ;
+      rdfs:label "Cohen Diet"@en ;
+      rdfs:subClassOf <http://purl.bioontology.org/ontology/NPI/C_000007> .
